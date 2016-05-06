@@ -1,6 +1,6 @@
 {
   "name": "ass-to-srt",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "ass subtitle to srt format",
   "main": "index.js",
   "scripts": {

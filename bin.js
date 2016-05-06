@@ -1,17 +1,17 @@
 #!/usr/bin/env node
 
-var ass2srt = require('./')
-var minimist = require('minimist')
-var fs = require('fs')
+var ass2srt = require('./');
+var minimist = require('minimist');
+var fs = require('fs');
 
 var argv = minimist(process.argv.slice(2), {
   alias: {out:'o', help:'h'},
   default: {out:'-'}
-})
+});
 
 var filename = argv._[0];
 if(argv.help || !filename) {
-  console.error('Usage: ass-to-srt input.ass [-o output.src]')
+  console.error('Usage: ass2srt input.ass [-o output.src]')
   process.exit(1)
 }
 
