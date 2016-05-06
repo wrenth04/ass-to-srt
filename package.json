@@ -1,0 +1,24 @@
+{
+  "name": "ass-to-srt",
+  "version": "1.0.0",
+  "description": "ass subtitle to srt format",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wrenth04/ass-to-srt.git"
+  },
+  "keywords": [
+    "ass",
+    "srt",
+    "subtitle"
+  ],
+  "author": "Phil Huang",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/wrenth04/ass-to-srt/issues"
+  },
+  "homepage": "https://github.com/wrenth04/ass-to-srt#readme"
+}
