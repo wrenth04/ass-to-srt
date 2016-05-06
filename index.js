@@ -21,10 +21,10 @@ module.exports = function(assText) {
 
   var i = 1;
   var output = srts.sort(function(d1, d2) {
-    var s1 = assTimer2Int(d1.start);
-    var s2 = assTimer2Int(d2.start);
-    var e1 = assTimer2Int(d1.end);
-    var e2 = assTimer2Int(d2.end);
+    var s1 = assTime2Int(d1.start);
+    var s2 = assTime2Int(d2.start);
+    var e1 = assTime2Int(d1.end);
+    var e2 = assTime2Int(d2.end);
 
     return s1 != s2 ? s1 - s2 : e1 - e2;
   }).map(function(srt) {
@@ -33,12 +33,12 @@ module.exports = function(assText) {
     return (i++) + '\n'
       + start + ' --> ' + end + '\n'
       + srt.text + '\n\n';
-  }).join('');;
+  }).join('');
 
   return output;
 };
 
-function assTimer2Int(assTime) {
+function assTime2Int(assTime) {
   return parseInt(assTime.replace(/[^0-9]/g, ''));
 }
 
