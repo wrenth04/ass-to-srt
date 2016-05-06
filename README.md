@@ -1,8 +1,14 @@
 # ASS to SRT
+ass subtitle to srt format 
 
-## install
+## Install
 ```
-npm install ass-to-srt
+npm install -g ass-to-srt
+```
+
+## Usage
+```
+ass2srt input.ass -o output.srt
 ```
 
 ## Example
