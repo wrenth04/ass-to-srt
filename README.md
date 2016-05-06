@@ -1,11 +1,11 @@
-ASS to SRT
+# ASS to SRT
 
-# install
+## install
 ```
 npm install ass-to-srt
 ```
 
-# Example
+## Example
 ```
 var ass2srt = require('ass-to-srt');
 var fs = require('fs');
