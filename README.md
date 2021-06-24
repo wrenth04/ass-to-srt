@@ -20,4 +20,12 @@ fs.openFile('input.ass', function(err, data) {
   var output = ass2srt(data);
   console.log(output);
 });
+// if this does not logs output
+
+let data = fs.readFileSync('./src/sample.ass', );
+  let output = ass2srt(data);
+//   console.log('heres your ass to srt');
+  console.log(output);
+
+
 ```
